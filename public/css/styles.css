@@ -48,6 +48,7 @@ p {
 
 .search-bar {
    display: inline;
+   margin: auto;
 }
 
 
@@ -68,17 +69,24 @@ header .form .submit{
 
 .main-header {
    background-color: yellow;
-   padding: 10px;
+   padding: 15px;
 }
 
 .logo {
    width: 150px;
 }
 
+.logo.register {
+   width: 10px;
+   height: 10px;
+}
+
+
 .copy-header {
    font-weight: 400px;
    text-align: center;
    font-size: 15px;
+   margin-left: auto;
 }
 
 .burger-menu {
@@ -107,15 +115,15 @@ header nav {
 
 .main-navbar ul {
    margin:0;
-   padding:0;
-   list-style:none;
+   padding: 20px;;
+   list-style: none;
 }
 
 .main-navbar a {
    text-decoration: none;
    color: #222222;
    display: inline-block;
-   padding: 5px 0;
+   padding: 10px 10px;
 
 }
 
@@ -180,17 +188,21 @@ footer h4 {
    display:none;
 }
 
+
+/* REGISTER */
+
+
 .profile {
    font-size: 18px;
    color: blue;
 }
 
-font-intereres  {
+.font-intereres  {
 
  font-size: 18px;
  color: red;
  font-weight: 300px;
- 
+
 } 
 
 @media (min-width: 361px) {

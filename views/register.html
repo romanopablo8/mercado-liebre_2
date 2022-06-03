@@ -12,13 +12,16 @@
         <header class="main-header">
             <div class="main-header-top-bar">
                 <img src="/static/images/logo-mercado-liebre.svg" class="logo"> 
-                <div class="form", style="display: flex; align-items: center; margin: auto;" action="#" method="GET">
-                    <div class="input">Buscar productos, marcas y más</div>
-                    <div class="submit"><i class="fa fa-search"></i></div>
-                </div> 
+                <div class="search-bar">
+                    <input type="search" placeholder="Buscar productos, marcas">
+                    <button>
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
                     <h2 class="copy-header">
                     <i class="fas fa-hand-holding-usd"></i>
                  Comprá en cuotas y sin tarjeta de crédito </h2> 
+                 <br></br>
             </div>        
             <a href="#" class="burger-menu"><i class="fas fa-bars"></i></a>
             <nav class="main-navbar">
@@ -30,15 +33,21 @@
                </ul>
                <ul class="right-navbar">
                    <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-                   <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                   <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                    <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
                </ul>
          </nav>
        </header>
+       <div><img src="/static/images/img-home-banner.jpg" width="100%" alt=""></div>
     <main>
       <form action ="/" method ="POST">
+         <label for="name"> Nombre y Apellido: </label> 
         <input type="text" name ="name" placeholder ="Nombre y apellido">
+        <br></br>
+        <label for="user"> Nombre de Usuario: </label> 
         <input type="text" name ="user" placeholder ="Nombre de usuario">
+        <br></br>
+        <label for="email"> Correo electronico: </label> 
         <input type="email" name ="email" placeholder ="E-mail">
      </form>
     </main>
